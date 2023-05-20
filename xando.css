@@ -1,0 +1,57 @@
+body
+{
+
+    background:linear-gradient(#9e9b9b,#100202);
+}
+
+
+.game
+{
+padding: 5px;
+width: 285px;
+text-align: center;
+margin: auto;
+color: aliceblue;
+}
+.head
+{
+    font-size: 20px;
+   border-radius: 5px;
+    color: aliceblue;
+    margin: 5px 0;
+    padding: 5px 0;
+background:linear-gradient(#b30606,#100202); 
+
+
+}
+span
+{
+color: rgb(245, 201, 4);
+
+}
+
+.xando
+{
+width: 90px;
+height: 90px;
+margin: 1px;
+float: left;
+font-size: 44px;
+font-family: cursive;
+font-weight: 500px;
+background:linear-gradient(#b30606,#100202);
+border-radius: 5px;
+
+
+
+}
+
+.xando:hover
+{
+cursor: pointer;
+    background:linear-gradient(#b30606,#100202);
+    transform: scale(1.1);
+    transition: 0.5s;
+
+
+}
